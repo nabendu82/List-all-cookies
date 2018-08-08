@@ -1,0 +1,11 @@
+html, body {
+  min-width: 500px;
+}
+
+.panel {
+  padding: 5px;
+}
+
+li {
+  margin-bottom: 5px;
+}
