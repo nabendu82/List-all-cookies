@@ -1,21 +1,18 @@
 {
   "browser_action": {
     "browser_style": true,
-    "default_title": "List cookies in the active tab",
+    "default_title": "List all cookies in the active tab",
     "default_popup": "cookies.html",
-    "default_icon": {
-      "19": "icons/default19.png",
-      "38": "icons/default38.png"
-    }
+    "default_icon": "icons/logo_64.png"
   },
-  "description": "List cookies in the active tab.",
+  "description": "List all cookies in the active tab.",
   "icons": {
-    "48": "icons/cookie.png",
-    "96": "icons/cookie@2x.png"
+    "32": "icons/logo_32.png",
+    "64": "icons/logo_64.png"
   },
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/list-cookies",
+  "homepage_url": "https://github.com/nabendu82/List-all-cookies",
   "manifest_version": 2,
-  "name": "List cookies",
+  "name": "List-all-cookies",
   "version": "1.0",
   "permissions": ["cookies","<all_urls>","tabs"]
 }
